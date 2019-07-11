@@ -30,7 +30,10 @@ ul {
      height: 200px;
      width: 200px;
      margin-right: 10px;
+     float: left;
  }
+
+ 
 
  section {
      clear: both;
@@ -45,14 +48,41 @@ ul {
      background-image: url("../images/fishnets-and-hearts.png");
  }
 
- .container {
-     width: 960px;
-     margin: 0 auto;
- }
-
  nav {
      background-color: #fff;
      clear: both;
+ }
+
+ label {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input {
+    margin: 10px 20px;
+}
+
+footer {
+    text-align: center;
+    background: #777;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+.copyright {
+    color: #fff
+}
+
+.profile {
+     margin-left: 10px;
+ }
+
+.container {
+     width: 960px;
+     margin: 0 auto;
  }
 
  .menu{
@@ -65,14 +95,6 @@ ul {
      clear:both;
  }
 
-label {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-input {
-    margin: 10px 20px;
-}
 
 #text {
     width: 95%;
