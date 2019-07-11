@@ -89,3 +89,33 @@ input {
     color: #fff;
     padding: 15px 32px;
 }
+
+.projects {
+    position: relative;
+    margin: 0 auto;
+}
+
+.project-one {
+    top: 40px;
+    left: 40px;
+}
+
+.project-two {
+    top: 5px;
+    left: 60px;
+}
+
+.project-three {
+    top: 200px;
+    right: 380px;
+}
+
+.project-four {
+    top: 160px;
+    right: 360px;
+}
+
+.project-five {
+    top: 195px;
+    left: 40px;
+}
