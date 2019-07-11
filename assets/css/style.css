@@ -65,3 +65,27 @@ ul {
      display: block;
      clear:both;
  }
+
+label {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input {
+    margin: 10px 20px;
+}
+
+#text {
+    width: 95%;
+}
+
+#text-box {
+    width: 95%;
+    height: 250px;
+}
+
+#button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 15px 32px;
+}
