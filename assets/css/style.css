@@ -29,7 +29,6 @@ ul {
  img {
      height: 200px;
      width: 200px;
-     float: left;
      margin-right: 10px;
  }
 
@@ -92,30 +91,18 @@ input {
 
 .projects {
     position: relative;
-    margin: 0 auto;
+    margin: 10px;
+    float: left;
 }
 
-.project-one {
-    top: 40px;
-    left: 40px;
+.projects img {
+    width: 100%;
 }
 
-.project-two {
-    top: 5px;
-    left: 60px;
-}
-
-.project-three {
-    top: 200px;
-    right: 380px;
-}
-
-.project-four {
-    top: 160px;
-    right: 360px;
-}
-
-.project-five {
-    top: 195px;
-    left: 40px;
+.tags {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    background-color: #4aaaa5;
 }
